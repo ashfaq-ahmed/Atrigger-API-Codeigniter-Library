@@ -13,5 +13,16 @@ To create a scheduled task, in your controller,
 
 <pre>
 $this->load->library('Trigger');
-$this->trigger->doCreate();
+$tags = array();
+$tags['type']='test';
+$this->trigger->doCreate("1month", "http://www.example.com/myTask?something", $tags);
 </pre>
+
+To delete a Task
+<pre>
+$this->load->library('Trigger');
+$tags = array();
+$tags['type']='test';
+$this->trigger->doDelete($tags);
+</pre>
+You can have a look at all available functions <a href="http://atrigger.com/docs/wiki/14/library-php">here</a>
