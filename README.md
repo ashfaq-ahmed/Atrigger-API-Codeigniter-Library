@@ -1,7 +1,7 @@
 Atrigger-API-Codeigniter-Library
 ================================
 
-Create Scheduled Tasks In Codeigniter Application using Atrigger PHP library, 
+Create Scheduled and/or recurring Tasks In Codeigniter Application using Atrigger PHP library, 
 
 <h3>Getting Started</h3>
 1) Create an account at Atrigger.com to obtain API key and Secret.
